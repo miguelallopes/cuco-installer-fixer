@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cuco-installer-fix"
+version = "0.1.0"
+description = "CUCO Agent installer and fixer for Windows"
+authors = ["Miguel Lopes <powerofthescript@outlook.com>"]
+readme = "README.md"
+packages = [{include = "cuco_inforlandia_installer_fix"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+WMI = "^1.5.1"
+httpx = "^0.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
